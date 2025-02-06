@@ -281,3 +281,86 @@ select{
 .news-2 img{
     border-radius: 24px;
 }
+
+/* donate section styles */
+.donate-section{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-container{
+    display: flex;
+    justify-content: space-between;
+}
+.donate-card{
+    width: 250px;
+    height: 125px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 6px  rgba(14, 14, 14, 0.15);
+    margin: 24px;
+}
+#donate-card-color{
+    background-color: #C6E4D6;
+}
+.donate-footer{
+    box-shadow: 0px 0px 6px  rgba(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 0.3);
+    padding: 20px;
+    margin: 10px 128px 30px 128px;
+}
+.donate-title p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate-title h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Subscribe section styles*/
+.subscribe-card-section{
+    background-color: #C6E4D6;
+    align-items: center;
+    text-align: center;
+    padding: 80px 265px;
+    border-radius: 24px;
+    margin-top: 80px;
+}
+.subscribe-card-section p{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.input-box input{
+    padding: 20px 80px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    margin-right: -3px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.subc-btn{
+    background-color: #006A50;
+    padding: 16px 34px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+/* footer section styles */
+footer{
+    margin-top: 80px;
+    text-align: center;
+    margin: 80px 240px 0px 240px;
+}
+footer img{
+    width: 24px;
+    margin: 20px;
+}
+
+footer h1{
+    border-bottom: 2px solid rgba(14, 14, 14, 0.1);
+    padding-bottom: 32px;
+    
+}
